@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deveshwar Hariharan - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/profile_picture.JPG" alt="Deveshwar Hariharan" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Deveshwar Hariharan">Deveshwar Hariharan</h1>
+
+          <p class="title">Robotics & Computer Vision Researcher</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:dhariha@ncsu.edu" class="contact-link">dhariha@ncsu.edu</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Raleigh, NC, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/DeveshwarH1996" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://linkedin.com/in/deveshwar-hariharan-12431b117" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://scholar.google.com/citations?user=f_6Y85wAAAAJ&hl=en" class="social-link" target="_blank">
+              <ion-icon name="school-outline"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a Robotics and Computer Vision Researcher pursuing a Ph.D. in Electrical Engineering at North Carolina State University. My research focuses on deep learning, cooperative perception, and the deployment of advanced AI models on edge devices for autonomous vehicles.
+          </p>
+
+          <p>
+            With extensive experience leading the EcoPRT Autonomous Vehicle Lab, I specialize in designing perception systems, optimizing machine learning models for real-time edge deployment, and building end-to-end robotic systems from custom PCBs up to fleet management software.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Autonomous Systems icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Autonomous Systems</h4>
+
+                <p class="service-item-text">
+                  Leading the EcoPRT Autonomous Vehicle Lab and developing prediction and maneuvering algorithms.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="Machine Learning & CV icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning & CV</h4>
+
+                <p class="service-item-text">
+                  Building deep learning and computer vision models using PyTorch, OpenCV, and TensorRT for edge deployment.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="Hardware & PCB Design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Hardware & PCB Design</h4>
+
+                <p class="service-item-text">
+                  Designing custom deployment PCBs and integrated hardware for specialized sensors and IMUs.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="Embedded Systems icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Embedded Systems</h4>
+
+                <p class="service-item-text">
+                  Developing firmware, motor controls, and hardware interfaces for robotic platforms and custom IoT devices.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Ph.D. & M.S., Electrical Engineering</h4>
+
+              <span>2019 — 2026 (Expected)</span>
+
+              <p class="timeline-text">
+                North Carolina State University. Specializing in computer vision, cooperative perception, and advanced AI edge deployment.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bachelor of Technology, Electrical Engineering</h4>
+
+              <span>2014 — 2018</span>
+
+              <p class="timeline-text">
+                Amrita Vishwa Vidhyapeetham, India.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Lead Graduate Research Assistant</h4>
+
+              <span>June 2019 — Present</span>
+
+              <p class="timeline-text">
+                EcoPRT Autonomous Vehicle Lab, NC State. Leading software and hardware teams. Developing prediction modules and managing testing pipelines to pass IRB requirements.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">President of Graduate Student Body</h4>
+
+              <span>May 2021 — April 2023</span>
+
+              <p class="timeline-text">
+                GSA, NC State University. Advocated for graduate student benefits and restructured funding architectures for special interest groups.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Student Researcher</h4>
+
+              <span>Jan 2019 — June 2019</span>
+
+              <p class="timeline-text">
+                EcoPRT Autonomous Vehicle Lab. Implemented emergency braking controllers and computer vision tracking using ROS and Point Cloud Library.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python & C++</h5>
+                <data value="95">95%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Computer Vision & Deep Learning</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Robotics & ROS</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Hardware Design (PCB)</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Robotics</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Embedded Systems</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Robotics</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Embedded Systems</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="./blog-home-automation.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/home_automation_ha_esphome.png" alt="Home Automation" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Home Automation</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="embedded systems">
+              <a href="./blog-cat-feeder.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/automatic_cat_feeder_1774990554831.png" alt="Automatic Cat Feeder" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Automatic Cat Feeder</h3>
+
+                <p class="project-category">Embedded Systems</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="robotics">
+              <a href="./blog-line-robot.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/line_following_robot_1774990567343.png" alt="Line Following Robot" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Line Following Robot</h3>
+
+                <p class="project-category">Robotics</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="robotics">
+              <a href="./blog-lane-drone.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/lane_following_drone_1774990581879.png" alt="Lane Following Drone" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Lane Following Drone</h3>
+
+                <p class="project-category">Robotics</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="./blog-home-automation.html">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/home_automation_ha_esphome.png" alt="Home Automation Projects" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Applications</p>
+                    <span class="dot"></span>
+                    <time datetime="2023-10-15">Oct 15, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Home Automation Projects</h3>
+
+                  <p class="blog-text">
+                    A unified smart home ecosystem utilizing Home Assistant, ESPHome, and Ollama to control custom IoT devices and voice assistants.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="./blog-cat-feeder.html">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/automatic_cat_feeder_1774990554831.png" alt="Automatic Cat Feeder" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Embedded Systems</p>
+                    <span class="dot"></span>
+                    <time datetime="2020-06-20">Jun 20, 2020</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Automatic Cat Feeder</h3>
+
+                  <p class="blog-text">
+                    A custom engineered automated cat feeder utilizing perception algorithms to manage feeding times to ensure more sleep.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="./blog-line-robot.html">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/line_following_robot_1774990567343.png" alt="Line Following Robot" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Robotics</p>
+                    <span class="dot"></span>
+                    <time datetime="2019-12-10">Dec 10, 2019</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Line Following Robot</h3>
+
+                  <p class="blog-text">
+                    A high-speed robot engineered with Python and OpenCV to autonomously navigate a complex track without derailing.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="./blog-lane-drone.html">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/lane_following_drone_1774990581879.png" alt="Lane Following Drone" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Robotics</p>
+                    <span class="dot"></span>
+                    <time datetime="2019-05-15">May 15, 2019</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Lane Following Drone</h3>
+
+                  <p class="blog-text">
+                    An autonomous airborne drone built from scratch using ROS, Gazebo, and a Deep Learning CNN for lane detection.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
