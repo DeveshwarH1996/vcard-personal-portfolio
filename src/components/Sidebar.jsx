@@ -7,7 +7,7 @@ export default function Sidebar() {
       <div className="sidebar-info">
 
         <figure className="avatar-box">
-          <img src="./assets/images/profile_picture.JPG" alt="Deveshwar Hariharan" width="80" />
+          <img src="/vcard-personal-portfolio/assets/images/profile_picture.JPG" alt="Deveshwar Hariharan" width="80" />
         </figure>
 
         <div className="info-content">

@@ -32,7 +32,7 @@ export default function About() {
             <li className="service-item">
 
               <div className="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Autonomous Systems icon" width="40" />
+                <img src="/vcard-personal-portfolio/assets/images/icon-dev.svg" alt="Autonomous Systems icon" width="40" />
               </div>
 
               <div className="service-content-box">
@@ -48,7 +48,7 @@ export default function About() {
             <li className="service-item">
 
               <div className="service-icon-box">
-                <img src="./assets/images/icon-design.svg" alt="Machine Learning & CV icon" width="40" />
+                <img src="/vcard-personal-portfolio/assets/images/icon-design.svg" alt="Machine Learning & CV icon" width="40" />
               </div>
 
               <div className="service-content-box">
@@ -64,7 +64,7 @@ export default function About() {
             <li className="service-item">
 
               <div className="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="Hardware & PCB Design icon" width="40" />
+                <img src="/vcard-personal-portfolio/assets/images/icon-app.svg" alt="Hardware & PCB Design icon" width="40" />
               </div>
 
               <div className="service-content-box">
@@ -80,7 +80,7 @@ export default function About() {
             <li className="service-item">
 
               <div className="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="Embedded Systems icon" width="40" />
+                <img src="/vcard-personal-portfolio/assets/images/icon-photo.svg" alt="Embedded Systems icon" width="40" />
               </div>
 
               <div className="service-content-box">

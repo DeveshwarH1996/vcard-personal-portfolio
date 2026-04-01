@@ -17,7 +17,7 @@ export default function BlogList() {
               <Link to="/blog/home-automation">
 
                 <figure className="blog-banner-box">
-                  <img src="./assets/images/home_automation_ha_esphome.png" alt="Home Automation Projects" loading="lazy" />
+                  <img src="/vcard-personal-portfolio/assets/images/home_automation_ha_esphome.png" alt="Home Automation Projects" loading="lazy" />
                 </figure>
 
                 <div className="blog-content">
@@ -43,7 +43,7 @@ export default function BlogList() {
               <Link to="/blog/cat-feeder">
 
                 <figure className="blog-banner-box">
-                  <img src="./assets/images/automatic_cat_feeder_1774990554831.png" alt="Automatic Cat Feeder" loading="lazy" />
+                  <img src="/vcard-personal-portfolio/assets/images/automatic_cat_feeder_1774990554831.png" alt="Automatic Cat Feeder" loading="lazy" />
                 </figure>
 
                 <div className="blog-content">
@@ -69,7 +69,7 @@ export default function BlogList() {
               <Link to="/blog/line-robot">
 
                 <figure className="blog-banner-box">
-                  <img src="./assets/images/line_following_robot_1774990567343.png" alt="Line Following Robot" loading="lazy" />
+                  <img src="/vcard-personal-portfolio/assets/images/line_following_robot_1774990567343.png" alt="Line Following Robot" loading="lazy" />
                 </figure>
 
                 <div className="blog-content">
@@ -95,7 +95,7 @@ export default function BlogList() {
               <Link to="/blog/lane-drone">
 
                 <figure className="blog-banner-box">
-                  <img src="./assets/images/lane_following_drone_1774990581879.png" alt="Lane Following Drone" loading="lazy" />
+                  <img src="/vcard-personal-portfolio/assets/images/lane_following_drone_1774990581879.png" alt="Lane Following Drone" loading="lazy" />
                 </figure>
 
                 <div className="blog-content">

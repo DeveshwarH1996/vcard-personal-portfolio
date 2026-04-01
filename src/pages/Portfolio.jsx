@@ -75,7 +75,7 @@ export default function Portfolio() {
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/home_automation_ha_esphome.png" alt="Home Automation" loading="lazy" />
+                  <img src="/vcard-personal-portfolio/assets/images/home_automation_ha_esphome.png" alt="Home Automation" loading="lazy" />
                 </figure>
 
                 <h3 className="project-title">Home Automation</h3>
@@ -93,7 +93,7 @@ export default function Portfolio() {
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/automatic_cat_feeder_1774990554831.png" alt="Automatic Cat Feeder" loading="lazy" />
+                  <img src="/vcard-personal-portfolio/assets/images/automatic_cat_feeder_1774990554831.png" alt="Automatic Cat Feeder" loading="lazy" />
                 </figure>
 
                 <h3 className="project-title">Automatic Cat Feeder</h3>
@@ -111,7 +111,7 @@ export default function Portfolio() {
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/line_following_robot_1774990567343.png" alt="Line Following Robot" loading="lazy" />
+                  <img src="/vcard-personal-portfolio/assets/images/line_following_robot_1774990567343.png" alt="Line Following Robot" loading="lazy" />
                 </figure>
 
                 <h3 className="project-title">Line Following Robot</h3>
@@ -129,7 +129,7 @@ export default function Portfolio() {
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/lane_following_drone_1774990581879.png" alt="Lane Following Drone" loading="lazy" />
+                  <img src="/vcard-personal-portfolio/assets/images/lane_following_drone_1774990581879.png" alt="Lane Following Drone" loading="lazy" />
                 </figure>
 
                 <h3 className="project-title">Lane Following Drone</h3>
