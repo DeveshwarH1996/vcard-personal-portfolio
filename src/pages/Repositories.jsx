@@ -28,19 +28,19 @@ export default function Repositories() {
             </li>
 
             <li className="project-item active">
-              <a href="https://github.com/DeveshwarH1996" target="_blank" rel="noreferrer">
+              <div style={{ padding: "30px", background: "var(--border-gradient-onyx)", borderRadius: "14px", position: "relative", zIndex: "1" }}>
                 <figure className="project-img">
                   <div className="project-item-icon-box">
-                    <ion-icon name="logo-github"></ion-icon>
+                    <ion-icon name="lock-closed-outline"></ion-icon>
                   </div>
                   <img src="/vcard-personal-portfolio/assets/images/IMG_1234.jpg" alt="EcoPRT Vehicle" loading="lazy" style={{ objectFit: 'cover' }} />
                 </figure>
-                <h3 className="project-title">EcoPRT Autonomous Software Stack</h3>
-                <p className="project-category">ROS 1 / C++</p>
+                <h3 className="project-title" style={{ marginTop: "15px" }}>EcoPRT Autonomous Software Stack</h3>
+                <p className="project-category">Proprietary ROS 1 / C++</p>
                 <p className="project-category" style={{marginTop: "10px", fontSize: "14px", textTransform: "none", color: "var(--light-gray)" }}>
                   Core prediction, tracking, and emergency braking modules deployed directly onto the EcoPRT prototype vehicles.
                 </p>
-              </a>
+              </div>
             </li>
 
           </ul>
