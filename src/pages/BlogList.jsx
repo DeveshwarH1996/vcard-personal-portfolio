@@ -17,7 +17,7 @@ export default function BlogList() {
               <Link to="/blog/home-automation">
 
                 <figure className="blog-banner-box">
-                  <img src="/vcard-personal-portfolio/assets/images/home_automation_ha_esphome.png" alt="Home Automation Projects" loading="lazy" />
+                  <img src="/vcard-personal-portfolio/assets/images/Home_Assistant.png" alt="Home Automation Projects" loading="lazy" />
                 </figure>
 
                 <div className="blog-content">

@@ -5,7 +5,7 @@ export const blogPosts = {
     title: "Home Automation Projects",
     category: "Applications",
     date: "Oct 15, 2023",
-    image: "/assets/images/home_automation_ha_esphome.png",
+    image: "/assets/images/Home_Assistant.png",
     content: (
       <div className="blog-text" style={{ color: "var(--light-gray)", lineHeight: 1.6 }}>
         <p>My home automation setup is heavily centered around <strong>Home Assistant</strong>, acting as the primary brain for all interconnected devices. By leveraging Home Assistant's extensive integration capabilities, I am able to unify disparate smart home ecosystems under a single, highly customizable dashboard. This includes automating, logging, and controlling a wide array of IoT devices throughout my home.</p>

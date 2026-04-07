@@ -19,6 +19,29 @@ export default function About() {
         </section>
 
 
+        <section className="timeline" style={{ marginBottom: "30px", marginTop: "30px" }}>
+          <div className="title-wrapper">
+            <div className="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <h3 className="h3">News</h3>
+          </div>
+          <ol className="timeline-list">
+            <li className="timeline-item">
+              <h4 className="h4 timeline-item-title">Apr 2026</h4>
+              <p className="timeline-text">Our deep learning paper <em>RinneFormer</em> was accepted at IV 2026!</p>
+            </li>
+            <li className="timeline-item">
+              <h4 className="h4 timeline-item-title">Mar 2026</h4>
+              <p className="timeline-text">Successfully defended my Ph.D. Dissertation at NC State University.</p>
+            </li>
+            <li className="timeline-item">
+              <h4 className="h4 timeline-item-title">Aug 2025</h4>
+              <p className="timeline-text">Started as a Data Science Research Consultant at NCSU Libraries Data Science Services.</p>
+            </li>
+          </ol>
+        </section>
+
         {/*
           - service
         */}

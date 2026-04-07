@@ -24,7 +24,7 @@ export default function Resume() {
 
               <h4 className="h4 timeline-item-title">Ph.D. & M.S., Electrical Engineering</h4>
 
-              <span>2019 — 2026 (Expected)</span>
+              <span>2019 — 2026 (Defended Mar 2026)</span>
 
               <p className="timeline-text">
                 North Carolina State University. Specializing in computer vision, cooperative perception, and advanced AI edge deployment.
@@ -62,9 +62,21 @@ export default function Resume() {
 
             <li className="timeline-item">
 
+              <h4 className="h4 timeline-item-title">Data Science Research Consultant</h4>
+
+              <span>Aug 2025 — Present</span>
+
+              <p className="timeline-text">
+                Data Science Services, NCSU Libraries. Delivering consulting support on machine learning, automation, and AI tools for graduate students and faculty.
+              </p>
+
+            </li>
+
+            <li className="timeline-item">
+
               <h4 className="h4 timeline-item-title">Lead Graduate Research Assistant</h4>
 
-              <span>June 2019 — Present</span>
+              <span>June 2019 — Aug 2025</span>
 
               <p className="timeline-text">
                 EcoPRT Autonomous Vehicle Lab, NC State. Leading software and hardware teams. Developing prediction modules and managing testing pipelines to pass IRB requirements.

@@ -84,6 +84,13 @@ export default function Sidebar() {
 
         </ul>
 
+        <div className="separator" style={{ margin: "20px 0" }}></div>
+
+        <a href="/vcard-personal-portfolio/Deveshwar_resume_rs.pdf" download className="form-btn" style={{ width: "100%", display: "flex", justifyContent: "center", alignItems: "center", gap: "10px", padding: "15px" }}>
+          <ion-icon name="download-outline"></ion-icon>
+          <span>Download CV</span>
+        </a>
+
       </div>
 
     </aside>
