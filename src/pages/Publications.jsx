@@ -21,7 +21,7 @@ export default function Publications() {
 
             <li className="timeline-item">
               <h4 className="h4 timeline-item-title">RinneFormer - Cross Attention in Cooperative Perception</h4>
-              <span>2026 (In review)</span>
+              <span>2026 (Accepted)</span>
               <p className="timeline-text">
                 Intelligent Vehicles Symposium. Co-authored with Zhu, Y., Pulithaya, D. U., Yoon, M., Hollar, S.
               </p>
@@ -48,14 +48,6 @@ export default function Publications() {
               <span>2022</span>
               <p className="timeline-text">
                 Proceedings of the Human Factors and Ergonomics Society Annual Meeting. Co-authored with Chu, Y., Hollar, S., Feng, F.
-              </p>
-            </li>
-
-            <li className="timeline-item">
-              <h4 className="h4 timeline-item-title">PointPillars++, A Spatial Feature Encoder for Classification of Raw Point Cloud Data from LiDARs</h4>
-              <span>2022</span>
-              <p className="timeline-text">
-                Electronic Thesis, NC State University.
               </p>
             </li>
 
