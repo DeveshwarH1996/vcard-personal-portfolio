@@ -75,7 +75,7 @@ export default function Portfolio() {
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="/vcard-personal-portfolio/assets/images/home_automation_ha_esphome.png" alt="Home Automation" loading="lazy" />
+                  <img src="/vcard-personal-portfolio/assets/images/Home_Assistant.png" alt="Home Automation" loading="lazy" />
                 </figure>
 
                 <h3 className="project-title">Home Automation</h3>
