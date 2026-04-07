@@ -8,6 +8,7 @@ import Portfolio from './pages/Portfolio';
 import BlogList from './pages/BlogList';
 import BlogPost from './pages/BlogPost';
 import Publications from './pages/Publications';
+import Repositories from './pages/Repositories';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/blog" element={<BlogList />} />
             <Route path="/blog/:id" element={<BlogPost />} />
             <Route path="/publications" element={<Publications />} />
+            <Route path="/repositories" element={<Repositories />} />
           </Routes>
         </div>
       </main>

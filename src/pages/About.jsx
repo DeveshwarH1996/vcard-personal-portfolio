@@ -44,7 +44,7 @@ export default function About() {
               <p className="timeline-text">Successfully passed my Ph.D. preliminary exams.</p>
             </li>
             <li className="timeline-item">
-              <h4 className="h4 timeline-item-title">2024</h4>
+              <h4 className="h4 timeline-item-title">Aug 2024</h4>
               <p className="timeline-text">Published our EcoPRT improvements research paper in the IDETC-CIE conference.</p>
             </li>
           </ol>
