@@ -1678,6 +1678,10 @@ textarea.form-input::-webkit-resizer { display: none; }
     box-shadow: var(--shadow-5);
   }
 
+  article {
+    padding-top: 80px;
+  }
+
 
 
   /**
