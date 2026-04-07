@@ -28,16 +28,24 @@ export default function About() {
           </div>
           <ol className="timeline-list">
             <li className="timeline-item">
-              <h4 className="h4 timeline-item-title">Apr 2026</h4>
-              <p className="timeline-text">Our deep learning paper <em>RinneFormer</em> was accepted at IV 2026!</p>
-            </li>
-            <li className="timeline-item">
               <h4 className="h4 timeline-item-title">Mar 2026</h4>
               <p className="timeline-text">Successfully defended my Ph.D. Dissertation at NC State University.</p>
             </li>
             <li className="timeline-item">
+              <h4 className="h4 timeline-item-title">Jan 2026</h4>
+              <p className="timeline-text">Our deep learning paper <em>RinneFormer</em> was accepted at IV 2026!</p>
+            </li>
+            <li className="timeline-item">
               <h4 className="h4 timeline-item-title">Aug 2025</h4>
               <p className="timeline-text">Started as a Data Science Research Consultant at NCSU Libraries Data Science Services.</p>
+            </li>
+            <li className="timeline-item">
+              <h4 className="h4 timeline-item-title">Feb 2025</h4>
+              <p className="timeline-text">Successfully passed my Ph.D. preliminary exams.</p>
+            </li>
+            <li className="timeline-item">
+              <h4 className="h4 timeline-item-title">2024</h4>
+              <p className="timeline-text">Published our EcoPRT improvements research paper in the IDETC-CIE conference.</p>
             </li>
           </ol>
         </section>
