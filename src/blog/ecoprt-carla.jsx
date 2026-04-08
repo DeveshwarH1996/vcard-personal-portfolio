@@ -5,7 +5,7 @@ export const meta = {
   title: "EcoPRT Fleet & CARLA Autonomous Simulation",
   category: "Autonomous Systems",
   date: "Apr 08, 2026",
-  image: "/vcard-personal-portfolio/assets/images/EcoPRT_Vehicle.jpg",
+  image: "/vcard-personal-portfolio/assets/images/EcoPRT.jpg",
   description: "Building the EcoPRT autonomous vehicle fleet from scratch using custom hardware and ROS, and validating cooperative perception algorithms with the CARLA simulator."
 };
 
