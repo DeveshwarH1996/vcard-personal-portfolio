@@ -1,6 +1,9 @@
 import { Link } from 'react-router-dom';
 
 export default function BlogList() {
+  const posts = import.meta.glob('../blog/*.jsx', { eager: true });
+  const blogItems = Object.values(posts).map(module => module.meta).sort((a, b) => new Date(b.date) - new Date(a.date));
+
   return (
     <>
       <article className="blog active" data-page="blog">
@@ -10,119 +13,29 @@ export default function BlogList() {
         </header>
 
         <section className="blog-posts">
-
           <ul className="blog-posts-list">
-
-            <li className="blog-post-item">
-              <Link to="/blog/home-automation">
-
-                <figure className="blog-banner-box">
-                  <img src="/vcard-personal-portfolio/assets/images/Home_Assistant.png" alt="Home Automation Projects" loading="lazy" />
-                </figure>
-
-                <div className="blog-content">
-
-                  <div className="blog-meta">
-                    <p className="blog-category">Applications</p>
-                    <span className="dot"></span>
-                    <time dateTime="2023-10-15">Oct 15, 2023</time>
+            {blogItems.map(post => (
+              <li className="blog-post-item" key={post.id}>
+                <Link to={`/blog/${post.id}`}>
+                  <figure className="blog-banner-box">
+                    <img src={post.image} alt={post.title} loading="lazy" />
+                  </figure>
+                  <div className="blog-content">
+                    <div className="blog-meta">
+                      <p className="blog-category">{post.category}</p>
+                      <span className="dot"></span>
+                      <time dateTime={new Date(post.date).toISOString().split('T')[0]}>{post.date}</time>
+                    </div>
+                    <h3 className="h3 blog-item-title">{post.title}</h3>
+                    <p className="blog-text">{post.description}</p>
                   </div>
-
-                  <h3 className="h3 blog-item-title">Home Automation Projects</h3>
-
-                  <p className="blog-text">
-                    A unified smart home ecosystem utilizing Home Assistant, ESPHome, and Ollama to control custom IoT devices and voice assistants.
-                  </p>
-
-                </div>
-
-              </Link>
-            </li>
-
-            <li className="blog-post-item">
-              <Link to="/blog/cat-feeder">
-
-                <figure className="blog-banner-box">
-                  <img src="/vcard-personal-portfolio/assets/images/automatic_cat_feeder_1774990554831.png" alt="Automatic Cat Feeder" loading="lazy" />
-                </figure>
-
-                <div className="blog-content">
-
-                  <div className="blog-meta">
-                    <p className="blog-category">Embedded Systems</p>
-                    <span className="dot"></span>
-                    <time dateTime="2020-06-20">Jun 20, 2020</time>
-                  </div>
-
-                  <h3 className="h3 blog-item-title">Automatic Cat Feeder</h3>
-
-                  <p className="blog-text">
-                    A custom engineered automated cat feeder utilizing perception algorithms to manage feeding times to ensure more sleep.
-                  </p>
-
-                </div>
-
-              </Link>
-            </li>
-
-            <li className="blog-post-item">
-              <Link to="/blog/line-robot">
-
-                <figure className="blog-banner-box">
-                  <img src="/vcard-personal-portfolio/assets/images/line_following_robot_1774990567343.png" alt="Line Following Robot" loading="lazy" />
-                </figure>
-
-                <div className="blog-content">
-
-                  <div className="blog-meta">
-                    <p className="blog-category">Robotics</p>
-                    <span className="dot"></span>
-                    <time dateTime="2019-12-10">Dec 10, 2019</time>
-                  </div>
-
-                  <h3 className="h3 blog-item-title">Line Following Robot</h3>
-
-                  <p className="blog-text">
-                    A high-speed robot engineered with Python and OpenCV to autonomously navigate a complex track without derailing.
-                  </p>
-
-                </div>
-
-              </Link>
-            </li>
-
-            <li className="blog-post-item">
-              <Link to="/blog/lane-drone">
-
-                <figure className="blog-banner-box">
-                  <img src="/vcard-personal-portfolio/assets/images/lane_following_drone_1774990581879.png" alt="Lane Following Drone" loading="lazy" />
-                </figure>
-
-                <div className="blog-content">
-
-                  <div className="blog-meta">
-                    <p className="blog-category">Robotics</p>
-                    <span className="dot"></span>
-                    <time dateTime="2019-05-15">May 15, 2019</time>
-                  </div>
-
-                  <h3 className="h3 blog-item-title">Lane Following Drone</h3>
-
-                  <p className="blog-text">
-                    An autonomous airborne drone built from scratch using ROS, Gazebo, and a Deep Learning CNN for lane detection.
-                  </p>
-
-                </div>
-
-              </Link>
-            </li>
-
+                </Link>
+              </li>
+            ))}
           </ul>
-
         </section>
 
       </article>
-
     </>
   );
 }

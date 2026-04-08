@@ -1,8 +1,11 @@
+import React, { useState } from 'react';
 
 export default function Sidebar() {
+  const [isActive, setIsActive] = useState(false);
+
   return (
     <>
-    <aside className="sidebar" data-sidebar>
+    <aside className={`sidebar ${isActive ? 'active' : ''}`} data-sidebar>
 
       <div className="sidebar-info">
 
@@ -16,7 +19,7 @@ export default function Sidebar() {
           <p className="title">Robotics & Computer Vision Researcher</p>
         </div>
 
-        <button className="info_more-btn" data-sidebar-btn>
+        <button className="info_more-btn" data-sidebar-btn onClick={() => setIsActive(!isActive)}>
           <span>Show Contacts</span>
 
           <ion-icon name="chevron-down"></ion-icon>
