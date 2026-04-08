@@ -15,12 +15,12 @@ export default function Repositories() {
 
             {/* RinneFormer Model Entry */}
             <li className="project-item active">
-              <a href="https://github.com/DeveshwarH1996" target="_blank" rel="noreferrer">
+              <a href="https://github.com/DeveshwarH1996/Rinneformer" target="_blank" rel="noreferrer">
                 <figure className="project-img">
                   <div className="project-item-icon-box">
                     <ion-icon name="logo-github"></ion-icon>
                   </div>
-                  <img src="/vcard-personal-portfolio/assets/images/Rinneformer.png" onError={(e) => e.target.src = "/assets/images/Rinneformer.png"} alt="RinneFormer Model Architecture" loading="lazy" style={{ objectFit: 'cover' }} />
+                  <img src={`${import.meta.env.BASE_URL}assets/images/Rinneformer.png`} alt="RinneFormer Model Architecture" loading="lazy" style={{ objectFit: 'cover' }} />
                 </figure>
                 <h3 className="project-title">RinneFormer Model Architecture</h3>
                 <p className="project-category">PyTorch / Python / VLA</p>
@@ -32,12 +32,12 @@ export default function Repositories() {
 
             {/* Cooperative Perception Entry */}
             <li className="project-item active">
-              <a href="https://github.com/DeveshwarH1996" target="_blank" rel="noreferrer">
+              <a href="https://github.com/DeveshwarH1996/Cooperative_Perception" target="_blank" rel="noreferrer">
                 <figure className="project-img">
                   <div className="project-item-icon-box">
                     <ion-icon name="logo-github"></ion-icon>
                   </div>
-                  <img src="/vcard-personal-portfolio/assets/images/simplescreenrecorder-2025-11-15_16.41.31.gif" onError={(e) => e.target.src = "/assets/images/simplescreenrecorder-2025-11-15_16.41.31.gif"} alt="Cooperative Perception Package" loading="lazy" />
+                  <img src={`${import.meta.env.BASE_URL}assets/images/simplescreenrecorder-2025-11-15_16.41.31.gif`} alt="Cooperative Perception Package" loading="lazy" />
                 </figure>
                 <h3 className="project-title">Cooperative Perception for ROS</h3>
                 <p className="project-category">ROS 2 / C++ / Python</p>
@@ -54,7 +54,7 @@ export default function Repositories() {
                   <div className="project-item-icon-box">
                     <ion-icon name="document-text-outline"></ion-icon>
                   </div>
-                  <img src="/vcard-personal-portfolio/assets/images/EcoPRT.jpg" onError={(e) => e.target.src = "/assets/images/EcoPRT.jpg"} alt="EcoPRT Vehicle" loading="lazy" style={{ objectFit: 'cover' }} />
+                  <img src={`${import.meta.env.BASE_URL}assets/images/EcoPRT.jpg`} alt="EcoPRT Vehicle" loading="lazy" style={{ objectFit: 'cover' }} />
                 </figure>
                 <h3 className="project-title">EcoPRT Autonomous Software Stack</h3>
                 <p className="project-category">Proprietary ROS 1 & 2 / Custom Hardware</p>
