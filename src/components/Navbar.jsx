@@ -15,9 +15,6 @@ export default function Navbar() {
             <NavLink to="/resume" className={({isActive}) => isActive ? "navbar-link active" : "navbar-link"}>Resume</NavLink>
           </li>
 
-          <li className="navbar-item">
-            <NavLink to="/portfolio" className={({isActive}) => isActive ? "navbar-link active" : "navbar-link"}>Portfolio</NavLink>
-          </li>
 
           <li className="navbar-item">
             <NavLink to="/blog" className={({isActive}) => isActive ? "navbar-link active" : "navbar-link"}>Blog</NavLink>

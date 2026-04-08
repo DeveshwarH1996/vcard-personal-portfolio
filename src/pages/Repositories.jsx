@@ -21,7 +21,7 @@ export default function Repositories() {
                 </figure>
                 <h3 className="project-title">RinneFormer Cooperative Perception</h3>
                 <p className="project-category">ROS 2 / C++ / Python</p>
-                <p className="project-category" style={{marginTop: "10px", fontSize: "14px", textTransform: "none", color: "var(--light-gray)" }}>
+                <p className="project-category" style={{ marginTop: "10px", fontSize: "14px", textTransform: "none", color: "var(--light-gray)" }}>
                   Implementation of cross-attention algorithms for vehicle-to-vehicle perception sharing and fusion.
                 </p>
               </a>
@@ -33,11 +33,11 @@ export default function Repositories() {
                   <div className="project-item-icon-box">
                     <ion-icon name="lock-closed-outline"></ion-icon>
                   </div>
-                  <img src="/vcard-personal-portfolio/assets/images/IMG_1234.jpg" alt="EcoPRT Vehicle" loading="lazy" style={{ objectFit: 'cover' }} />
+                  <img src="/vcard-personal-portfolio/assets/images/EcoPRT.jpg" alt="EcoPRT Vehicle" loading="lazy" style={{ objectFit: 'cover' }} />
                 </figure>
                 <h3 className="project-title" style={{ marginTop: "15px" }}>EcoPRT Autonomous Software Stack</h3>
-                <p className="project-category">Proprietary ROS 1 / C++</p>
-                <p className="project-category" style={{marginTop: "10px", fontSize: "14px", textTransform: "none", color: "var(--light-gray)" }}>
+                <p className="project-category">Proprietary ROS 1 & 2 / C++</p>
+                <p className="project-category" style={{ marginTop: "10px", fontSize: "14px", textTransform: "none", color: "var(--light-gray)" }}>
                   Core prediction, tracking, and emergency braking modules deployed directly onto the EcoPRT prototype vehicles.
                 </p>
               </div>
