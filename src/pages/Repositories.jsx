@@ -20,7 +20,7 @@ export default function Repositories() {
                   <div className="project-item-icon-box">
                     <ion-icon name="logo-github"></ion-icon>
                   </div>
-                  <img src={`${import.meta.env.BASE_URL}assets/images/Rinneformer.png`} alt="RinneFormer Model Architecture" loading="lazy" style={{ objectFit: 'cover' }} />
+                  <img src="./assets/images/Rinneformer.png" alt="RinneFormer Model Architecture" loading="lazy" style={{ objectFit: 'cover' }} />
                 </figure>
                 <h3 className="project-title">RinneFormer Model Architecture</h3>
                 <p className="project-category">PyTorch / Python / VLA</p>
@@ -37,7 +37,7 @@ export default function Repositories() {
                   <div className="project-item-icon-box">
                     <ion-icon name="logo-github"></ion-icon>
                   </div>
-                  <img src={`${import.meta.env.BASE_URL}assets/images/simplescreenrecorder-2025-11-15_16.41.31.gif`} alt="Cooperative Perception Package" loading="lazy" />
+                  <img src="./assets/images/simplescreenrecorder-2025-11-15_16.41.31.gif" alt="Cooperative Perception Package" loading="lazy" />
                 </figure>
                 <h3 className="project-title">Cooperative Perception for ROS</h3>
                 <p className="project-category">ROS 2 / C++ / Python</p>
@@ -54,7 +54,7 @@ export default function Repositories() {
                   <div className="project-item-icon-box">
                     <ion-icon name="document-text-outline"></ion-icon>
                   </div>
-                  <img src={`${import.meta.env.BASE_URL}assets/images/EcoPRT.jpg`} alt="EcoPRT Vehicle" loading="lazy" style={{ objectFit: 'cover' }} />
+                  <img src="./assets/images/EcoPRT.jpg" alt="EcoPRT Vehicle" loading="lazy" style={{ objectFit: 'cover' }} />
                 </figure>
                 <h3 className="project-title">EcoPRT Autonomous Software Stack</h3>
                 <p className="project-category">Proprietary ROS 1 & 2 / Custom Hardware</p>
