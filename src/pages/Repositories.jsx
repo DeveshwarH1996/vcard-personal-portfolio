@@ -20,7 +20,7 @@ export default function Repositories() {
                   <div className="project-item-icon-box">
                     <ion-icon name="logo-github"></ion-icon>
                   </div>
-                  <img src="/vcard-personal-portfolio/assets/images/project-1.jpg" alt="RinneFormer Model Architecture" loading="lazy" style={{ objectFit: 'cover' }} />
+                  <img src="/vcard-personal-portfolio/assets/images/Rinneformer.png" alt="RinneFormer Model Architecture" loading="lazy" style={{ objectFit: 'cover' }} />
                 </figure>
                 <h3 className="project-title">RinneFormer Model Architecture</h3>
                 <p className="project-category">PyTorch / Python / VLA</p>
