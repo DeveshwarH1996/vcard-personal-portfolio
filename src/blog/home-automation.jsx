@@ -12,18 +12,18 @@ export const meta = {
 export default function Post() {
   return (
     <div className="blog-text" style={{ color: "var(--light-gray)", lineHeight: 1.6 }}>
-      
+
       <p style={{ marginBottom: "15px" }}>
-        My home automation setup is heavily centered around <strong>Home Assistant</strong>, serving as the central nervous system for all interconnected devices. While the ecosystem currently runs entirely on a Raspberry Pi, I am actively migrating the architecture to a dedicated 2-node Proxmox cluster to ensure enterprise-grade high availability for critical home infrastructure. 
+        My home automation setup is heavily centered around <strong>Home Assistant</strong>, serving as the central nervous system for all interconnected devices. While the ecosystem currently runs entirely on a Raspberry Pi, I am actively migrating the architecture to a dedicated 2-node Proxmox cluster to ensure enterprise-grade high availability for critical home infrastructure.
       </p>
 
       <h3 style={{ color: "var(--white-2)", marginBottom: "15px", marginTop: "30px", fontSize: "1.2rem", fontWeight: "600" }}>Custom ESPHome Hardware & Fail-Safes</h3>
       <p style={{ marginBottom: "15px" }}>
-        Rather than relying on closed ecosystems, I heavily utilize <strong>ESPHome</strong> to engineer custom devices that communicate purely locally. I've designed several custom millimeter-wave (mmWave) presence sensors unified with temperature and humidity modules for high-accuracy room occupancy. 
+        Rather than relying on closed ecosystems, I heavily utilize <strong>ESPHome</strong> to engineer custom devices that communicate purely locally. I've designed several custom millimeter-wave (mmWave) presence sensors unified with temperature and humidity modules for high-accuracy room occupancy.
       </p>
-      
+
       <p style={{ marginBottom: "15px" }}>
-        Hardware hacking is also a major component of my smart home. For example, I successfully reverse-engineered a commercial <em>PetKit Fresh Element Solo</em> pet feeder, flashing it with custom ESPHome firmware to liberate it from cloud dependency. 
+        Hardware hacking is also a major component of my smart home. For example, I successfully reverse-engineered a commercial <em>PetKit Fresh Element Solo</em> pet feeder, flashing it with custom ESPHome firmware to liberate it from cloud dependency.
       </p>
 
       <figure style={{ marginBottom: "20px", borderRadius: "14px", overflow: "hidden", display: "flex", justifyContent: "center" }}>
@@ -35,8 +35,8 @@ export default function Post() {
       </p>
 
       <h3 style={{ color: "var(--white-2)", marginBottom: "15px", marginTop: "30px", fontSize: "1.2rem", fontWeight: "600" }}>Multi-Lingual Local AI Assistants</h3>
-      
-      <figure style={{ marginBottom: "20px", marginTop: "10px", display: "flex", justifyContent: "flex-start" }}>
+
+      <figure style={{ marginBottom: "20px", marginTop: "10px", display: "flex", justifyContent: "center" }}>
         <img src="https://ollama.com/public/ollama.png" alt="Ollama Logo" loading="lazy" style={{ height: "60px", objectFit: "contain" }} />
       </figure>
 
@@ -47,7 +47,7 @@ export default function Post() {
       <h3 style={{ color: "var(--white-2)", marginBottom: "15px", marginTop: "30px", fontSize: "1.2rem", fontWeight: "600" }}>Whole-House Synchronized Audio</h3>
 
       <div style={{ display: "flex", gap: "20px", marginBottom: "20px", flexWrap: "wrap", alignItems: "center" }}>
-        <figure style={{ display: "flex", justifyContent: "flex-start" }}>
+        <figure style={{ display: "flex", justifyContent: "center" }}>
           <img src="https://avatars.githubusercontent.com/music-assistant" alt="Music Assistant Logo" loading="lazy" style={{ height: "80px", borderRadius: "10px", objectFit: "contain" }} />
         </figure>
       </div>
@@ -70,7 +70,7 @@ export default function Post() {
       </p>
 
       <p style={{ marginBottom: "15px" }}>
-        At night, the inverse sequence occurs. When our phones automatically enter "Wind Down" mode, Home Assistant begins imperceptibly dimming the lights, shifting them to warmer color temperatures and slowly dragging the brightness down to 1%. This naturally induces sleepiness without us ever noticing the transition. 
+        At night, the inverse sequence occurs. When our phones automatically enter "Wind Down" mode, Home Assistant begins imperceptibly dimming the lights, shifting them to warmer color temperatures and slowly dragging the brightness down to 1%. This naturally induces sleepiness without us ever noticing the transition.
       </p>
 
     </div>
