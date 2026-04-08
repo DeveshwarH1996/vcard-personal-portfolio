@@ -26,19 +26,39 @@ export default function Post() {
         Hardware hacking is also a major component of my smart home. For example, I successfully reverse-engineered a commercial <em>PetKit Fresh Element Solo</em> pet feeder, flashing it with custom ESPHome firmware to liberate it from cloud dependency. 
       </p>
 
+      <figure style={{ marginBottom: "20px", borderRadius: "14px", overflow: "hidden", display: "flex", justifyContent: "center" }}>
+        <img src="https://m.media-amazon.com/images/I/61I4n8VjSCL._AC_SL1500_.jpg" alt="PetKit Fresh Element Solo Feeder" loading="lazy" style={{ maxHeight: "300px", objectFit: "contain", borderRadius: "10px" }} />
+      </figure>
+
       <p style={{ marginBottom: "15px" }}>
         Perhaps my most important custom build is a fail-safe smart switchboard. I engineered this using hardware relays mapped seamlessly to our smart lights. Under normal operations, flipping the physical switch sends a digital command to Home Assistant. However, if the Home Assistant server is ever offline, the switchboard automatically detects the network failure and reverts to functioning as a traditional "dumb" switch—hardwiring the relays to ensure the house's lights always work regardless of server uptime. (I am also currently developing a custom smart lock featuring local facial recognition!)
       </p>
 
       <h3 style={{ color: "var(--white-2)", marginBottom: "15px", marginTop: "30px", fontSize: "1.2rem", fontWeight: "600" }}>Multi-Lingual Local AI Assistants</h3>
+      
+      <figure style={{ marginBottom: "20px", marginTop: "10px", display: "flex", justifyContent: "flex-start" }}>
+        <img src="https://ollama.com/public/ollama.png" alt="Ollama Logo" loading="lazy" style={{ height: "60px", objectFit: "contain" }} />
+      </figure>
+
       <p style={{ marginBottom: "15px" }}>
         To eliminate cloud dependency for voice commands, I integrated <strong>Ollama</strong> as a local LLM backend. The voice pipeline is highly customized, utilizing dedicated wake words to seamlessly switch between languages without processing confusion. Saying <em>"Okay Nabu"</em> triggers the English processing pipeline, while saying <em>"Hey Jarvis"</em> directly triggers processing for Tamil.
       </p>
 
       <h3 style={{ color: "var(--white-2)", marginBottom: "15px", marginTop: "30px", fontSize: "1.2rem", fontWeight: "600" }}>Whole-House Synchronized Audio</h3>
+
+      <div style={{ display: "flex", gap: "20px", marginBottom: "20px", flexWrap: "wrap", alignItems: "center" }}>
+        <figure style={{ display: "flex", justifyContent: "flex-start" }}>
+          <img src="https://avatars.githubusercontent.com/u/95528822?v=4" alt="Music Assistant Logo" loading="lazy" style={{ height: "80px", borderRadius: "10px", objectFit: "contain" }} />
+        </figure>
+      </div>
+
       <p style={{ marginBottom: "15px" }}>
         On the media side, I use Music Assistant paired with the open-source Sendspin protocol to stream perfectly synchronized audio seamlessly across multiple rooms. To take full advantage of this, I actually built custom C-note HiFi speakers from scratch! I drive these acoustic speakers using an ESP32-S3 microcontroller coupled with a precise PCM5102 DAC and a dedicated power amplifier. <em>(Expect a dedicated blog post entirely about building these C-note speakers soon!)</em>
       </p>
+
+      <figure style={{ marginBottom: "20px", borderRadius: "14px", overflow: "hidden", display: "flex", justifyContent: "center" }}>
+        <img src="/vcard-personal-portfolio/assets/images/C-Note_Speakers.jpeg" alt="Custom C-Note Speakers" loading="lazy" style={{ width: "100%", maxHeight: "400px", objectFit: "cover", borderRadius: "10px" }} />
+      </figure>
 
       <h3 style={{ color: "var(--white-2)", marginBottom: "15px", marginTop: "30px", fontSize: "1.2rem", fontWeight: "600" }}>My Favorite Automation: Circadian Sleep Tracking</h3>
       <p style={{ marginBottom: "15px" }}>
