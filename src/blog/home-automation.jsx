@@ -27,7 +27,7 @@ export default function Post() {
       </p>
 
       <figure style={{ marginBottom: "20px", borderRadius: "14px", overflow: "hidden", display: "flex", justifyContent: "center" }}>
-        <img src="https://m.media-amazon.com/images/I/61I4n8VjSCL._AC_SL1500_.jpg" alt="PetKit Fresh Element Solo Feeder" loading="lazy" style={{ maxHeight: "300px", objectFit: "contain", borderRadius: "10px" }} />
+        <img src="/vcard-personal-portfolio/assets/images/fresh-element-solo-mobile-connection.png" onError={(e) => e.target.src = "/assets/images/fresh-element-solo-mobile-connection.png"} alt="PetKit Fresh Element Solo Feeder" loading="lazy" style={{ maxHeight: "300px", objectFit: "contain", borderRadius: "10px" }} />
       </figure>
 
       <p style={{ marginBottom: "15px" }}>
@@ -48,7 +48,7 @@ export default function Post() {
 
       <div style={{ display: "flex", gap: "20px", marginBottom: "20px", flexWrap: "wrap", alignItems: "center" }}>
         <figure style={{ display: "flex", justifyContent: "flex-start" }}>
-          <img src="https://avatars.githubusercontent.com/u/95528822?v=4" alt="Music Assistant Logo" loading="lazy" style={{ height: "80px", borderRadius: "10px", objectFit: "contain" }} />
+          <img src="https://avatars.githubusercontent.com/music-assistant" alt="Music Assistant Logo" loading="lazy" style={{ height: "80px", borderRadius: "10px", objectFit: "contain" }} />
         </figure>
       </div>
 
@@ -57,7 +57,7 @@ export default function Post() {
       </p>
 
       <figure style={{ marginBottom: "20px", borderRadius: "14px", overflow: "hidden", display: "flex", justifyContent: "center" }}>
-        <img src="/vcard-personal-portfolio/assets/images/C-Note_Speakers.jpeg" alt="Custom C-Note Speakers" loading="lazy" style={{ width: "100%", maxHeight: "400px", objectFit: "cover", borderRadius: "10px" }} />
+        <img src="/vcard-personal-portfolio/assets/images/C-Note_Speakers.jpeg" onError={(e) => e.target.src = "/assets/images/C-Note_Speakers.jpeg"} alt="Custom C-Note Speakers" loading="lazy" style={{ width: "100%", maxHeight: "400px", objectFit: "cover", borderRadius: "10px" }} />
       </figure>
 
       <h3 style={{ color: "var(--white-2)", marginBottom: "15px", marginTop: "30px", fontSize: "1.2rem", fontWeight: "600" }}>My Favorite Automation: Circadian Sleep Tracking</h3>
