@@ -36,8 +36,8 @@ export default function BlogPost() {
         </header>
 
         <div className="blog-post-content">
-          <figure className="blog-banner-box" style={{ marginBottom: "30px", borderRadius: "14px", overflow: "hidden" }}>
-            <img src={meta.image} alt={meta.title} loading="lazy" style={{ width: "100%", height: "auto", objectFit: "cover" }} />
+          <figure style={{ marginBottom: "30px", borderRadius: "14px", overflow: "hidden", backgroundColor: "var(--jet)", display: "flex", justifyContent: "center" }}>
+            <img src={meta.image} alt={meta.title} loading="lazy" style={{ width: "100%", height: "auto", maxHeight: "500px", objectFit: "contain" }} />
           </figure>
           
           <div className="blog-meta" style={{ marginBottom: "20px" }}>
