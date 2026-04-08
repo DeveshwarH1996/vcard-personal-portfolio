@@ -163,7 +163,7 @@ export default function Resume() {
         <section className="skill">
           <h3 className="h3 skills-title">Technical Skills</h3>
           <ul className="skills-list content-card" style={{ display: "flex", flexWrap: "wrap", gap: "10px", listStyle: "none", padding: "30px" }}>
-            {['Python', 'C++', 'PyTorch', 'ROS 2', 'OpenCV', 'TensorRT', 'Hardware Design', 'PCB', 'Deep Learning'].map(skill => (
+            {['Computer Vision', 'Cooperative Perception', 'AI Edge Deployment', 'Vision-Language-Action Models', 'Deep Learning', 'Machine Learning', 'Python', 'C++', 'PyTorch', 'ROS 2', 'OpenCV', 'TensorRT', 'Hardware Design', 'PCB'].map(skill => (
               <li key={skill} className="skill-item" style={{ background: "var(--onyx)", color: "var(--white-1)", padding: "8px 18px", borderRadius: "8px", fontSize: "var(--fs-6)", fontWeight: "var(--fw-300)" }}>
                 {skill}
               </li>
