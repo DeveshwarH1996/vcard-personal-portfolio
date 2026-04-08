@@ -37,7 +37,7 @@ export default function Post() {
       <h3 style={{ color: "var(--white-2)", marginBottom: "15px", marginTop: "30px", fontSize: "1.2rem", fontWeight: "600" }}>Multi-Lingual Local AI Assistants</h3>
 
       <figure style={{ marginBottom: "20px", marginTop: "10px", display: "flex", justifyContent: "center" }}>
-        <img src="https://ollama.com/public/ollama.png" alt="Ollama Logo" loading="lazy" style={{ height: "60px", objectFit: "contain" }} />
+        <img src="https://ollama.com/public/ollama.png" alt="Ollama Logo" loading="lazy" style={{ height: "120px", objectFit: "contain" }} />
       </figure>
 
       <p style={{ marginBottom: "15px" }}>
@@ -47,7 +47,7 @@ export default function Post() {
       <h3 style={{ color: "var(--white-2)", marginBottom: "15px", marginTop: "30px", fontSize: "1.2rem", fontWeight: "600" }}>Whole-House Synchronized Audio</h3>
 
       <figure style={{ marginBottom: "20px", marginTop: "10px", display: "flex", justifyContent: "center" }}>
-        <img src="https://avatars.githubusercontent.com/music-assistant" alt="Music Assistant Logo" loading="lazy" style={{ height: "80px", borderRadius: "10px", objectFit: "contain" }} />
+        <img src="https://avatars.githubusercontent.com/music-assistant" alt="Music Assistant Logo" loading="lazy" style={{ height: "120px", borderRadius: "10px", objectFit: "contain" }} />
       </figure>
 
       <p style={{ marginBottom: "15px" }}>
@@ -55,7 +55,7 @@ export default function Post() {
       </p>
 
       <figure style={{ marginBottom: "20px", borderRadius: "14px", overflow: "hidden", display: "flex", justifyContent: "center" }}>
-        <img src="/vcard-personal-portfolio/assets/images/C-Note_Speakers.jpeg" onError={(e) => e.target.src = "/assets/images/C-Note_Speakers.jpeg"} alt="Custom C-Note Speakers" loading="lazy" style={{ width: "100%", maxHeight: "400px", objectFit: "cover", borderRadius: "10px" }} />
+        <img src="/vcard-personal-portfolio/assets/images/C-Note_Speakers.jpeg" onError={(e) => e.target.src = "/assets/images/C-Note_Speakers.jpeg"} alt="Custom C-Note Speakers" loading="lazy" style={{ width: "60%", maxHeight: "250px", objectFit: "cover", borderRadius: "10px" }} />
       </figure>
 
       <h3 style={{ color: "var(--white-2)", marginBottom: "15px", marginTop: "30px", fontSize: "1.2rem", fontWeight: "600" }}>My Favorite Automation: Circadian Sleep Tracking</h3>
