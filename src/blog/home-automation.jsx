@@ -46,11 +46,9 @@ export default function Post() {
 
       <h3 style={{ color: "var(--white-2)", marginBottom: "15px", marginTop: "30px", fontSize: "1.2rem", fontWeight: "600" }}>Whole-House Synchronized Audio</h3>
 
-      <div style={{ display: "flex", gap: "20px", marginBottom: "20px", flexWrap: "wrap", alignItems: "center" }}>
-        <figure style={{ display: "flex", justifyContent: "center" }}>
-          <img src="https://avatars.githubusercontent.com/music-assistant" alt="Music Assistant Logo" loading="lazy" style={{ height: "80px", borderRadius: "10px", objectFit: "contain" }} />
-        </figure>
-      </div>
+      <figure style={{ marginBottom: "20px", marginTop: "10px", display: "flex", justifyContent: "center" }}>
+        <img src="https://avatars.githubusercontent.com/music-assistant" alt="Music Assistant Logo" loading="lazy" style={{ height: "80px", borderRadius: "10px", objectFit: "contain" }} />
+      </figure>
 
       <p style={{ marginBottom: "15px" }}>
         On the media side, I use Music Assistant paired with the open-source Sendspin protocol to stream perfectly synchronized audio seamlessly across multiple rooms. To take full advantage of this, I actually built custom C-note HiFi speakers from scratch! I drive these acoustic speakers using an ESP32-S3 microcontroller coupled with a precise PCM5102 DAC and a dedicated power amplifier. <em>(Expect a dedicated blog post entirely about building these C-note speakers soon!)</em>
