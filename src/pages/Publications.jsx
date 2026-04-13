@@ -20,7 +20,7 @@ export default function Publications() {
           <ol className="timeline-list">
 
             <li className="timeline-item">
-              <h4 className="h4 timeline-item-title">RinneFormer - Cross Attention in Cooperative Perception</h4>
+              <h4 className="h4 timeline-item-title">RinneFormer - Transformer-based Real-world Cooperative Perception Algorithm</h4>
               <span>2026 (Accepted)</span>
               <p className="timeline-text">
                 Intelligent Vehicles Symposium. Co-authored with Zhu, Y., Pulithaya, D. U., Yoon, M., Hollar, S.
@@ -36,7 +36,7 @@ export default function Publications() {
             </li>
 
             <li className="timeline-item">
-              <h4 className="h4 timeline-item-title">A Novel Approach for increased transaction security with Biometrics and One Time Password A complete implementation</h4>
+              <h4 className="h4 timeline-item-title">A Novel Approach for increased transaction security with Biometrics and One Time Password A complete implementation.</h4>
               <span>2024</span>
               <p className="timeline-text">
                 International Journal for Advanced Intelligence Paradigms. Co-authored with Venkat, G., Vasudevan, S. K.
@@ -44,7 +44,7 @@ export default function Publications() {
             </li>
 
             <li className="timeline-item">
-              <h4 className="h4 timeline-item-title">What Does That Car Mean? The Influence of Vehicle Motion and Symbolic Patterns of LED Signals on Pedestrians’ Interpretation of a Vehicle’s Intent</h4>
+              <h4 className="h4 timeline-item-title">What Does That Car Mean? The Influence of Vehicle Motion and Symbolic Patterns of LED Signals on Pedestrians' Interpretation of a Vehicle's Intent</h4>
               <span>2022</span>
               <p className="timeline-text">
                 Proceedings of the Human Factors and Ergonomics Society Annual Meeting. Co-authored with Chu, Y., Hollar, S., Feng, F.
