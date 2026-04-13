@@ -14,7 +14,7 @@ export default function Publications() {
               <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <h3 className="h3">Selected Works</h3>
+            <h3 className="h3">Publications</h3>
           </div>
 
           <ol className="timeline-list">

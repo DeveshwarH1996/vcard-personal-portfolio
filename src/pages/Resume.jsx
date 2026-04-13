@@ -119,13 +119,13 @@ export default function Resume() {
               <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <h3 className="h3">Publications</h3>
+            <h3 className="h3">Selected Publications</h3>
           </div>
 
           <ol className="timeline-list">
 
             <li className="timeline-item">
-              <h4 className="h4 timeline-item-title">RinneFormer - Cross Attention in Cooperative Perception</h4>
+              <h4 className="h4 timeline-item-title">RinneFormer - Transformer-based Real-world Cooperative Perception Algorithm</h4>
               <span>2026 (Accepted)</span>
               <p className="timeline-text">
                 Intelligent Vehicles Symposium. Co-authored with Zhu, Y., Pulithaya, D. U., Yoon, M., Hollar, S.
