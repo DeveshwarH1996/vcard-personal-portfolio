@@ -10,7 +10,7 @@ export default function About() {
 
         <section className="about-text">
           <p>
-            I'm a Robotics and Computer Vision Researcher pursuing a Ph.D. in Electrical Engineering at North Carolina State University. My research focuses on deep learning, cooperative perception, and the deployment of advanced AI models on edge devices for autonomous vehicles.
+            I'm a Robotics and Computer Vision Researcher and recently received my Ph.D. in Electrical Engineering from North Carolina State University. My research focuses on deep learning, cooperative perception, and the deployment of advanced AI models on edge devices for autonomous vehicles.
           </p>
 
           <p>
