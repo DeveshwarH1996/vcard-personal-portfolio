@@ -1834,8 +1834,8 @@ textarea.form-input::-webkit-resizer { display: none; }
     height: 100%;
     margin-bottom: 0;
     padding-top: 60px;
-    padding-inline: 50px;
-    padding-bottom: 50px;
+    padding-inline: 40px;
+    padding-bottom: 40px;
     z-index: 1;
   }
 
@@ -1844,7 +1844,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   .avatar-box img { width: 150px; }
 
   .info-content .name {
-    white-space: nowrap;
     text-align: center;
   }
 
