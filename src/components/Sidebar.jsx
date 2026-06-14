@@ -68,19 +68,19 @@ export default function Sidebar() {
         <ul className="social-list">
 
           <li className="social-item">
-            <a href="https://github.com/DeveshwarH1996" className="social-link" target="_blank">
+            <a href="https://www.github.com/DeveshwarH1996" className="social-link" target="_blank">
               <ion-icon name="logo-github"></ion-icon>
             </a>
           </li>
 
           <li className="social-item">
-            <a href="https://linkedin.com/in/deveshwar-hariharan-12431b117" className="social-link" target="_blank">
+            <a href="https://www.linkedin.com/in/deveshwar-hariharan-12431b117" className="social-link" target="_blank">
               <ion-icon name="logo-linkedin"></ion-icon>
             </a>
           </li>
 
           <li className="social-item">
-            <a href="https://scholar.google.com/citations?user=f_6Y85wAAAAJ&hl=en" className="social-link" target="_blank">
+            <a href="https://www.scholar.google.com/citations?user=f_6Y85wAAAAJ&hl=en" className="social-link" target="_blank">
               <ion-icon name="school-outline"></ion-icon>
             </a>
           </li>
