@@ -74,7 +74,7 @@ export default function Sidebar() {
           </li>
 
           <li className="social-item">
-            <a href="https://www.linkedin.com/in/deveshwar-hariharan-12431b117" className="social-link" target="_blank">
+            <a href="https://www.linkedin.com/in/deveshwar-hariharan-ph-d-12431b117/" className="social-link" target="_blank">
               <ion-icon name="logo-linkedin"></ion-icon>
             </a>
           </li>
